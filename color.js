@@ -48,7 +48,7 @@ button.onclick = function () {
   const cur = parseInt(num.textContent, 10);
   num.innerText = cur + 1;
 };
-// button.addEventListener('click', nightDayMode); 함수에 () 쓰면 바로 호출됨
+// button.addEventListener('click', function(){nightDayMode(this)});  함수에 () 쓰면 바로 호출됨
 
 const open = document.getElementById('open');
 const close = document.querySelector('.close-wrapper');
