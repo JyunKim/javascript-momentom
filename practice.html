@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <h1><a href="index.html">WEB</a></h1>
     <span id="number">0</span>
-    <input id="night_day" type="button" value="night" onclick="
+    <input
+      id="night_day"
+      type="button"
+      value="night"
+      onclick="
         /*
         let target = document.querySelector('body');
         const atags = document.querySelectorAll('a');  // a태그 리스트 반환
@@ -32,36 +36,45 @@
             }
         }
         */
-    ">
+    "
+    />
     <h2 id="main">Javascript</h2>
     <button id="open">상세 정보</button>
     <div class="modal-wrapper">
-        <div class="modal">
-          <div class="modal-title">자바스크립트</div>
-          <p>..</p>
-          <div class="close-wrapper">
-            <button>닫기</button>
-          </div>
+      <div class="modal">
+        <div class="modal-title">자바스크립트</div>
+        <p>..</p>
+        <div class="close-wrapper">
+          <button>닫기</button>
         </div>
+      </div>
     </div>
     <p>
-        <span id="first" class="js">JavaScript</span> (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic,
-         weakly typed, prototype-based, multi-paradigm, and interpreted programming language. 
-         Alongside <span>HTML</span> and <span>CSS</span>, <span class="js">JavaScript</span> is one of the three core technologies of 
-         World Wide Web content production. It is used to make webpages interactive and provide online programs, including video games. 
-         The majority of websites employ it, and all modern web browsers support it without the need for plug-ins by means of a built-in 
-         <span class="js">JavaScript</span> engine. Each of the many <span class="js">JavaScript</span> engines represent a different 
-         implementation of <span class="js">JavaScript</span>, all based on the ECMAScript specification, with some engines not supporting 
-         the spec fully, and with many engines supporting additional features beyond ECMA.
+      <span id="first" class="js">JavaScript</span> (/ˈdʒɑːvəˌskrɪpt/[6]), often
+      abbreviated as JS, is a high-level, dynamic, weakly typed,
+      prototype-based, multi-paradigm, and interpreted programming language.
+      Alongside <span>HTML</span> and <span>CSS</span>,
+      <span class="js">JavaScript</span> is one of the three core technologies
+      of World Wide Web content production. It is used to make webpages
+      interactive and provide online programs, including video games. The
+      majority of websites employ it, and all modern web browsers support it
+      without the need for plug-ins by means of a built-in
+      <span class="js">JavaScript</span> engine. Each of the many
+      <span class="js">JavaScript</span> engines represent a different
+      implementation of <span class="js">JavaScript</span>, all based on the
+      ECMAScript specification, with some engines not supporting the spec fully,
+      and with many engines supporting additional features beyond ECMA.
     </p>
     <ul>
-        <script>
-            const names = ['kim', 'lee', 'park'];  // 태그 바깥에서도 names 변수 사용 가능
-            for(let i = 0; i < names.length; i++) {
-                document.write(`<li><a href="http://a.com/${names[i]}">${names[i]}</a></li>`);  // Template literal: '대신 `사용
-            }
-        </script>
+      <script>
+        const names = ['kim', 'lee', 'park']; // 태그 바깥에서도 names 변수 사용 가능
+        for (let i = 0; i < names.length; i++) {
+          document.write(
+            `<li><a href="http://a.com/${names[i]}">${names[i]}</a></li>`
+          ); // Template literal: '대신 `사용
+        }
+      </script>
     </ul>
     <script src="color.js"></script>
-</body>
+  </body>
 </html>
