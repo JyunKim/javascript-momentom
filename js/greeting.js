@@ -8,7 +8,7 @@ const SHOWING = 'showing';
 function showGreeting(user) {
   greetingForm.classList.remove(SHOWING);
   greeting.classList.add(SHOWING);
-  greeting.textContent = `Hello ${user}`;
+  greeting.textContent = `안녕하세요 ${user}님!`;
 }
 
 function handleSubmit(event) {
